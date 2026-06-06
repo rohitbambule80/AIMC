@@ -14,4 +14,4 @@ chromadb
 
 pypdf
 
-huggingface-hub
+huggingface-hubstreamlit
