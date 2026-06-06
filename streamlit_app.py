@@ -19,7 +19,7 @@ if st.button("Ask AIMC"):
     with st.spinner("Analyzing aerospace manuals..."):
 
         response = requests.post(
-            "http://127.0.0.1:8000/chat",
+            "https://aimc-backend-443226416679.us-central1.run.app/chat",
             json={
                 "question": question
             }
